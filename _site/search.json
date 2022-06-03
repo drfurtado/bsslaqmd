@@ -3917,6 +3917,111 @@
     "href": "license.html",
     "title": "Open Source License",
     "section": "",
-    "text": "The Quarto source code is available at https://github.com/quarto-dev/\nQuarto is a registered trademark of RStudio. Please see our trademark policy for guidelines on usage of the Quarto trademark.\nQuarto also makes use of several other open-source projects, the distribution of which is subject to their respective licenses. Major components and their licenses include:\n\n\n\nProject\nLicense\n\n\n\n\nPandoc\nGNU GPL v2\n\n\nBootstrap 5.0\nMIT\n\n\nBootswatch 5.0\nMIT\n\n\nDeno\nMIT\n\n\nesbuild\nMIT\n\n\nDart Sass\nMIT\n\n\nObservable Runtime\nISC"
+    "text": "Quarto is open source software licensed under the GNU GPL v2. We believe that it’s better for everyone if the tools used for research and science are free and open. Reproducibility, widespread sharing of knowledge and techniques, and the leveling of the playing field by eliminating cost barriers are but a few of the shared benefits of free software in science.\nThe Quarto source code is available at https://github.com/quarto-dev/\nQuarto is a registered trademark of RStudio. Please see our trademark policy for guidelines on usage of the Quarto trademark.\nQuarto also makes use of several other open-source projects, the distribution of which is subject to their respective licenses. Major components and their licenses include:\n\n\n\nProject\nLicense\n\n\n\n\nPandoc\nGNU GPL v2\n\n\nBootstrap 5.0\nMIT\n\n\nBootswatch 5.0\nMIT\n\n\nDeno\nMIT\n\n\nesbuild\nMIT\n\n\nDart Sass\nMIT\n\n\nObservable Runtime\nISC"
+  },
+  {
+    "objectID": "docs/visual-editor/markdown.html#overview",
+    "href": "docs/visual-editor/markdown.html#overview",
+    "title": "Markdown Output",
+    "section": "Overview",
+    "text": "Overview\nThe Quarto visual editor generates markdown using Pandoc. This means that in some cases your markdown will be rewritten to conform to standard Pandoc idioms. For example, Pandoc inserts 3 spaces after list bullets and automatically escapes characters that might be used for markdown syntax.\nHere is a list of conventions for Pandoc generated markdown that might differ from your own markdown writing style:\n\n*text* is used in preference to _text_\nBacktick code blocks are written as ``` {.md} rather than ```md\nBacktick code blocks with no attributes are rendered as 4-space indented code blocks\nHorizontal rules are written as dashes spanning the full width of the document\nPlain links are written as <https://yihui.org> rather than https://yihui.org\nBullet and numbered lists use additional leading spaces before list item content\nThe blockquote character (>) is included on each new line of a blockquote\nTable captions are written below rather than above tables\nMultiline HTML and TeX blocks use the explicit raw attribute (e.g. ```{=tex})\nInline footnotes are replaced with footnotes immediately below the paragraph\nNested divs use ::: at all levels so long as their attributes are distinct\nUnnumbered sections are designated with {.unnumbered} rather than {-}\nCharacters used for markdown syntax (e.g. *, _, or #) are always escaped\n\nWhile some of this behavior might be bothersome at first, if you decide that visual editing mode is useful for your workflow it’s probably best to just adapt to writing your own markdown the same way that Pandoc does. Note that you can also configure source mode to write markdown using these conventions, ensuring that the same markdown is written no matter which mode edits originate from."
+  },
+  {
+    "objectID": "docs/visual-editor/index.html#overview",
+    "href": "docs/visual-editor/index.html#overview",
+    "title": "Visual Editor",
+    "section": "Overview",
+    "text": "Overview\nThe Quarto visual editor provides a WYSIWYM editing interface for all of Pandoc markdown, including tables, citations, cross-references, footnotes, divs/spans, definition lists, attributes, raw HTML/TeX, and more. The visual editor also includes support for executing code cells and viewing their output inline:\n\nThe visual editor doesn’t attempt to abstract away or obscure the underlying markdown document. Rather, it aims to provide a highly productive writing interface for people that love markdown. You can also still use most markdown constructs (e.g., ## or bold) directly for formatting.\n\nSwitching Modes\nMarkdown documents can be edited in either source or visual mode. To switch into visual mode for a given document, use the  button at the top-right of the document toolbar (or alternatively the ⌘⇧ F4 keyboard shortcut):\n\nNote that you can switch between source and visual mode at any time (editing location and undo/redo state will be preserved when you switch)."
+  },
+  {
+    "objectID": "docs/visual-editor/options.html#shortcuts",
+    "href": "docs/visual-editor/options.html#shortcuts",
+    "title": "Shortcuts & Options",
+    "section": "Shortcuts",
+    "text": "Shortcuts\nVisual mode supports both traditional keyboard shortcuts (e.g. ⌘ B for bold) as well as markdown shortcuts (using markdown syntax directly). For example, enclose **bold** text in asterisks or type ## and press space to create a second level heading.\nHere are the available keyboard and markdown shortcuts:\n\n\n\nCommand\nKeyboard Shortcut\nMarkdown Shortcut\n\n\n\n\nBold\n⌘ B\n**bold**\n\n\nItalic\n⌘ I\n*italic*\n\n\nCode\n⌘ D\n`code`\n\n\nStrikeout\n\n~~strike~~\n\n\nSubscript\n\n~sub~\n\n\nSuperscript\n\n^super^\n\n\nHeading 1\n⌥⌘ 1\n#\n\n\nHeading 2\n⌥⌘ 2\n##\n\n\nHeading 3\n⌥⌘ 3\n###\n\n\nHeading Attributes\n\n{#id .class}\n\n\nBlockquote\n\n>\n\n\nCode Block\n⇧⌘ \\\n```\n\n\nR Code Chunk\n⌥⌘ I\n```{r}\n\n\nRaw Block\n\n```{=html}\n\n\nDiv\n\n:::\n\n\nBullet List\n\n-\n\n\nOrdered List\n\n1.\n\n\nTight List\n⌥⌘ 9\n\n\n\nList Check\n\n[x]\n\n\nLink\n⌘ K\n<href>\n\n\nEmoji\n\n:smile:\n\n\nDefinition\n\n:\n\n\nNon-Breaking Space\n⌃ Space\n\n\n\nHard Line Break\n⇧ Enter\n\n\n\nParagraph\n⌥⌘ 0\n\n\n\nImage\n⇧⌘ I\n\n\n\nFootnote\n⇧⌘ F7\n\n\n\nCitation\n⇧⌘ F8\n[@\n\n\nTable\n⌥⌘ T\n\n\n\nEditing Comment\n⇧⌘ C\n\n\n\nSelect All\n⌘ A\n\n\n\nClear Formatting\n⌘ \\\n\n\n\nEdit Attributes\nF4\n\n\n\nRun Code Chunk\n⇧⌘ Enter\n\n\n\nRun Previous Chunks\n⇧⌥⌘ P\n\n\n\n\n\n\n\n\n\n\nFor markdown shortcuts, if you didn’t intend to use a shortcut and want to reverse its effect, just press the backspace key."
+  },
+  {
+    "objectID": "docs/reference/dates.html#date-parsing",
+    "href": "docs/reference/dates.html#date-parsing",
+    "title": "Quarto Dates and Date Formatting",
+    "section": "Date Parsing",
+    "text": "Date Parsing\nWhen you write a date for Quarto document, Quarto will attempt to parse a date string by trying a number of standard forms before ultimately attempting to infer the date format. Quarto will try dates formatted as follows, in the following order:\n\nMM/dd/yyyy\nMM-dd-yyyy\nMM/dd/yy\nMM-dd-yy\nyyyy-MM-dd\ndd MM yyyy\nMM dd, yyyy\nYYYY-MM-DDTHH:mm:ssZ\n\nIn addition, you may also provide date keywords, which will provide a dynamic date.\n\n\n\n\n\n\n\nKeyword\nDate\n\n\n\n\ntoday\nThe current local date, with the time portion set to 0.\n\n\nnow\nThe current local date and time.\n\n\nlast-modified\nThe last modified date and time of the file containing the date."
+  },
+  {
+    "objectID": "docs/reference/globs.html#overview",
+    "href": "docs/reference/globs.html#overview",
+    "title": "Quarto Glob Syntax",
+    "section": "Overview",
+    "text": "Overview\nQuarto sometimes allows you to provide a path or paths using glob syntax, providing wildcard expansion and other behavior that makes it simple to match a list of files without having to specify each file individually. Globs may be used:\n\nWhen specifying render targets in Quarto projects (see Render Targets).\nWhen defining resources for Quarto websites (see Site Resources).\nWhen defining documents to include in a listing (see Listing Contents)."
+  },
+  {
+    "objectID": "docs/websites/website-about.html#overview",
+    "href": "docs/websites/website-about.html#overview",
+    "title": "About Pages",
+    "section": "Overview",
+    "text": "Overview\nQuarto makes it easy to create a simple about page for an individual or organization. When the about option is provided for a document, a special template will be used to layout the content of the current page with a custom layout designed to present a person or organization.\nFor example:\n---\ntitle: \"Finley Malloc\"\nabout:\n  template: jolla\n  image: profile.jpg\n  links:\n    - icon: twitter\n      text: twitter\n      href: https://twitter.com\n    - icon: github\n      text: Github\n      href: https://github.com\n---\n\nFinley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending  time unicycling and playing with her pet iguana.\n\n## Education\n\nUniversity of California, San Diego | San Diego, CA\nPhD in Mathematics | Sep 2011 - June 2015\n\nMacalester College | St. Paul MA\nB.A in Economics | Sep 2007 - June 2011\n\n## Experience\n\nWengo Analytics | Head Data Scientist | April 2018 - present\n\nGeoScynce | Chief Analyst | Spet 2012 - April 2018\nThe contents of this page will be laid out using the jolla template with the profile.png image, and generate a set of links for the items specified in links.\nYou can write and format the content of the page however you’d like - when the page is rendered, Quarto will use the content and options provided in the about option to create the about page, arranging the content content of the about option with the content in the page itself."
+  },
+  {
+    "objectID": "docs/websites/website-search.html#overview",
+    "href": "docs/websites/website-search.html#overview",
+    "title": "Website Search",
+    "section": "Overview",
+    "text": "Overview\nQuarto includes support for full text search of websites and books. By default, Quarto will automatically index the contents of your site and make it searchable using a locally built index. You can also configure Quarto search to use a hosted Algolia index."
+  },
+  {
+    "objectID": "docs/websites/website-listings.html#overview",
+    "href": "docs/websites/website-listings.html#overview",
+    "title": "Document Listings",
+    "section": "Overview",
+    "text": "Overview\nListings enable you to automatically generate the contents of a page (or region of a page) from a list of Quarto documents or other custom data.\nListings are useful for creating blogs, providing navigation for large numbers of documents, or any other scenario where you’d like the contents of a page to be automatically updated as documents are added, updated, and removed.\nYou can enable listings on a page using the listing option in the document front matter. This will instruct Quarto to generate additional content (the ‘listings’) when the page is rendered. For example, the following YAML in the front matter of a document:\n---\ntitle: \"Listing Example\"\nlisting: default\n---\nWill result in a listing of all documents in the directory (with the exception of the current document). It might look something like this:"
+  },
+  {
+    "objectID": "docs/websites/website-navigation.html#overview",
+    "href": "docs/websites/website-navigation.html#overview",
+    "title": "Website Navigation",
+    "section": "Overview",
+    "text": "Overview\nThere are a variety of options available for providing website navigation, including:\n\nUsing top navigation (a navbar) with optional sub-menus.\nUsing side navigation with a hierarchy of pages.\nCombining top and side navigation (where top navigation links to different sections of the site each with their own side navigation).\n\nIn addition, you can add full text search to either the top or side navigation interface."
+  },
+  {
+    "objectID": "docs/websites/publishing-websites.html#overview",
+    "href": "docs/websites/publishing-websites.html#overview",
+    "title": "Publishing Websites",
+    "section": "Overview",
+    "text": "Overview\nThere are a wide variety of ways to publish Quarto websites. Website content is by default written to the _site sub-directory (you can customize this using the output-dir option). Publishing is simply a matter of copying the output directory to a web server or web hosting service.\nBelow we describe several convenient options for Quarto website deployment including GitHub Pages, Netlify, RStudio Connect, Firebase, Site44, and Amazon S3. We’ll mostly defer to the documentation provided by the various services, but will note any Quarto website specific configuration required."
+  },
+  {
+    "objectID": "docs/websites/website-blog.html#overview",
+    "href": "docs/websites/website-blog.html#overview",
+    "title": "Creating a Blog",
+    "section": "Overview",
+    "text": "Overview\nQuarto websites include integrated support for blogging. Blogs consist of a collection of posts along with a navigational page that lists them in reverse chronological order. Blogs can include a custom about page, publish an RSS feed, and use a wide variety of themes.\nYou can create websites that consist entirely of a single blog, websites that have multiple blogs, or you can add a blog to a website that contains other content."
+  },
+  {
+    "objectID": "docs/websites/website-tools.html#headers-footers",
+    "href": "docs/websites/website-tools.html#headers-footers",
+    "title": "Website Tools",
+    "section": "Headers & Footers",
+    "text": "Headers & Footers\nYou can provide standard headers and footers for pages on your site. These can apply to the main document body or to the sidebar. Available options include:\n\n\n\n\n\n\n\nValue\nDescription\n\n\n\n\nbody-header\nMarkdown to insert at the beginning of each page’s body (below the title and author block).\n\n\nbody-footer\nMarkdown to insert below each page’s body.\n\n\nmargin-header\nMarkdown to insert above right margin content (i.e. table of contents).\n\n\nmargin-footer\nMarkdown to insert below right margin content.\n\n\n\nFor example:\nbody-header: | \n  This page brought to you by <https://example.com>\nmargin-header: |\n  ![Logo image](logo.png)"
+  },
+  {
+    "objectID": "docs/websites/index.html#overview",
+    "href": "docs/websites/index.html#overview",
+    "title": "Creating a Website",
+    "section": "Overview",
+    "text": "Overview\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nWebsite navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nThis site is an example of a Quarto Website (you can see the source code for it here: https://github.com/quarto-dev/quarto-web)."
+  },
+  {
+    "objectID": "docs/websites/website-listings-custom.html#overview",
+    "href": "docs/websites/website-listings-custom.html#overview",
+    "title": "Custom Listings",
+    "section": "Overview",
+    "text": "Overview\nIn addition to the 3 built in types of listings, you can also build a completely custom display of the items. This custom display can generate any HTML and can optionally still take advantage of the sorting, filtering, and pagination provided by listings."
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Quarto",
+    "section": "Goals",
+    "text": "Goals\nThe overarching goal of Quarto is to make the process of creating and collaborating on scientific and technical documents dramatically better. We hope to do this in several dimensions:\n\nCreate a writing and publishing environment with great integrated tools for technical content. We want to make authoring with embedded code, equations, figures, complex diagrams, interactive widgets, citations, cross references, and the myriad other special requirements of scientific discourse straightforward and productive for everyone.\nHelp authors take full advantage of the web as a connected, interactive platform for communications, while still providing the ability to create excellent printed output from the same document source. Researchers shouldn’t need to choose between LaTeX, MS Word, and HTML but rather be able to author documents that target all of them at the same time.\nMake reproducible research and publications the norm rather than the exception. Reproducibility requires that the code and data required to create a manuscript are an integrated part of it. However, this isn’t often straightforward in practice—Quarto aims to make it easier to adopt a reproducible workflow than not.\n\nQuarto is open source software licensed under the GNU GPL v2. We believe that it’s better for everyone if the tools used for research and science are free and open. Reproducibility, widespread sharing of knowledge and techniques, and the leveling of the playing field by eliminating cost barriers are but a few of the shared benefits of free software in science."
   }
 ]

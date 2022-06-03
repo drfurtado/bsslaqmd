@@ -354,23 +354,23 @@
   </url>
   <url>
     <loc>https://quarto.org/docs/visual-editor/content.html</loc>
-    <lastmod>2022-05-20T00:21:55.853Z</lastmod>
+    <lastmod>2022-05-26T01:46:23.622Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/visual-editor/markdown.html</loc>
-    <lastmod>2022-05-20T00:21:56.345Z</lastmod>
+    <lastmod>2022-05-26T01:46:24.618Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/visual-editor/technical.html</loc>
-    <lastmod>2022-05-20T00:21:56.968Z</lastmod>
+    <lastmod>2022-05-26T01:46:25.755Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/visual-editor/index.html</loc>
-    <lastmod>2022-05-20T00:21:57.482Z</lastmod>
+    <lastmod>2022-05-26T01:46:26.591Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/visual-editor/options.html</loc>
-    <lastmod>2022-05-20T00:21:58.003Z</lastmod>
+    <lastmod>2022-05-26T01:46:27.539Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/interactive/shiny/execution.html</loc>
@@ -510,187 +510,187 @@
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/cells/cells-jupyter.html</loc>
-    <lastmod>2022-05-20T00:22:20.157Z</lastmod>
+    <lastmod>2022-05-26T01:46:28.326Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/cells/cells-knitr.html</loc>
-    <lastmod>2022-05-20T00:22:20.782Z</lastmod>
+    <lastmod>2022-05-26T01:46:29.484Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/cells/cells-ojs.html</loc>
-    <lastmod>2022-05-20T00:22:21.215Z</lastmod>
+    <lastmod>2022-05-26T01:46:30.256Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/opml.html</loc>
-    <lastmod>2022-05-20T00:22:21.659Z</lastmod>
+    <lastmod>2022-05-26T01:46:31.090Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/rtf.html</loc>
-    <lastmod>2022-05-20T00:22:22.099Z</lastmod>
+    <lastmod>2022-05-26T01:46:31.866Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/docx.html</loc>
-    <lastmod>2022-05-20T00:22:22.552Z</lastmod>
+    <lastmod>2022-05-26T01:46:32.653Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/markdown/markua.html</loc>
-    <lastmod>2022-05-20T00:22:22.989Z</lastmod>
+    <lastmod>2022-05-26T01:46:33.440Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/markdown/commonmark.html</loc>
-    <lastmod>2022-05-20T00:22:23.433Z</lastmod>
+    <lastmod>2022-05-26T01:46:34.246Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/markdown/gfm.html</loc>
-    <lastmod>2022-05-20T00:22:23.875Z</lastmod>
+    <lastmod>2022-05-26T01:46:35.065Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/markdown/hugo.html</loc>
-    <lastmod>2022-05-20T00:22:24.321Z</lastmod>
+    <lastmod>2022-05-26T01:46:35.876Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/org.html</loc>
-    <lastmod>2022-05-20T00:22:24.750Z</lastmod>
+    <lastmod>2022-05-26T01:46:36.693Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/ms.html</loc>
-    <lastmod>2022-05-20T00:22:25.187Z</lastmod>
+    <lastmod>2022-05-26T01:46:37.505Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/wiki/mediawiki.html</loc>
-    <lastmod>2022-05-20T00:22:25.619Z</lastmod>
+    <lastmod>2022-05-26T01:46:38.291Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/wiki/dokuwiki.html</loc>
-    <lastmod>2022-05-20T00:22:26.052Z</lastmod>
+    <lastmod>2022-05-26T01:46:39.084Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/wiki/jira.html</loc>
-    <lastmod>2022-05-20T00:22:26.488Z</lastmod>
+    <lastmod>2022-05-26T01:46:39.869Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/wiki/xwiki.html</loc>
-    <lastmod>2022-05-20T00:22:26.935Z</lastmod>
+    <lastmod>2022-05-26T01:46:40.643Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/wiki/zimwiki.html</loc>
-    <lastmod>2022-05-20T00:22:27.376Z</lastmod>
+    <lastmod>2022-05-26T01:46:41.430Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/rst.html</loc>
-    <lastmod>2022-05-20T00:22:27.793Z</lastmod>
+    <lastmod>2022-05-26T01:46:42.253Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/fb2.html</loc>
-    <lastmod>2022-05-20T00:22:28.225Z</lastmod>
+    <lastmod>2022-05-26T01:46:43.049Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/tei.html</loc>
-    <lastmod>2022-05-20T00:22:28.662Z</lastmod>
+    <lastmod>2022-05-26T01:46:43.864Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/ipynb.html</loc>
-    <lastmod>2022-05-20T00:22:29.100Z</lastmod>
+    <lastmod>2022-05-26T01:46:44.634Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/docbook.html</loc>
-    <lastmod>2022-05-20T00:22:29.535Z</lastmod>
+    <lastmod>2022-05-26T01:46:45.397Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/odt.html</loc>
-    <lastmod>2022-05-20T00:22:29.979Z</lastmod>
+    <lastmod>2022-05-26T01:46:46.206Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/presentations/beamer.html</loc>
-    <lastmod>2022-05-20T00:22:30.497Z</lastmod>
+    <lastmod>2022-05-26T01:46:47.142Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/presentations/pptx.html</loc>
-    <lastmod>2022-05-20T00:22:30.919Z</lastmod>
+    <lastmod>2022-05-26T01:46:47.917Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/presentations/revealjs.html</loc>
-    <lastmod>2022-05-20T00:22:31.438Z</lastmod>
+    <lastmod>2022-05-26T01:46:48.887Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/epub.html</loc>
-    <lastmod>2022-05-20T00:22:31.891Z</lastmod>
+    <lastmod>2022-05-26T01:46:49.714Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/pdf.html</loc>
-    <lastmod>2022-05-20T00:22:32.386Z</lastmod>
+    <lastmod>2022-05-26T01:46:50.614Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/icml.html</loc>
-    <lastmod>2022-05-20T00:22:32.824Z</lastmod>
+    <lastmod>2022-05-26T01:46:51.425Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/context.html</loc>
-    <lastmod>2022-05-20T00:22:33.280Z</lastmod>
+    <lastmod>2022-05-26T01:46:52.307Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/asciidoc.html</loc>
-    <lastmod>2022-05-20T00:22:33.709Z</lastmod>
+    <lastmod>2022-05-26T01:46:53.119Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/man.html</loc>
-    <lastmod>2022-05-20T00:22:34.135Z</lastmod>
+    <lastmod>2022-05-26T01:46:53.937Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/haddock.html</loc>
-    <lastmod>2022-05-20T00:22:34.560Z</lastmod>
+    <lastmod>2022-05-26T01:46:54.734Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/textile.html</loc>
-    <lastmod>2022-05-20T00:22:35.002Z</lastmod>
+    <lastmod>2022-05-26T01:46:55.521Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/muse.html</loc>
-    <lastmod>2022-05-20T00:22:35.442Z</lastmod>
+    <lastmod>2022-05-26T01:46:56.333Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/jats.html</loc>
-    <lastmod>2022-05-20T00:22:35.873Z</lastmod>
+    <lastmod>2022-05-26T01:46:57.137Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/texinfo.html</loc>
-    <lastmod>2022-05-20T00:22:36.291Z</lastmod>
+    <lastmod>2022-05-26T01:46:57.939Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/formats/html.html</loc>
-    <lastmod>2022-05-20T00:22:36.787Z</lastmod>
+    <lastmod>2022-05-26T01:46:58.870Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/projects/books.html</loc>
-    <lastmod>2022-05-20T00:22:37.381Z</lastmod>
+    <lastmod>2022-05-26T01:46:59.977Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/projects/websites.html</loc>
-    <lastmod>2022-05-20T00:22:37.945Z</lastmod>
+    <lastmod>2022-05-26T01:47:01.094Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/projects/core.html</loc>
-    <lastmod>2022-05-20T00:22:38.315Z</lastmod>
+    <lastmod>2022-05-26T01:47:01.769Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/projects/options.html</loc>
-    <lastmod>2022-05-20T00:22:38.698Z</lastmod>
+    <lastmod>2022-05-26T01:47:02.527Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/dates.html</loc>
-    <lastmod>2022-05-20T00:22:39.127Z</lastmod>
+    <lastmod>2022-05-26T01:47:03.401Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/index.html</loc>
-    <lastmod>2022-05-20T00:22:39.564Z</lastmod>
+    <lastmod>2022-05-26T01:47:04.263Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/metadata/citation.html</loc>
-    <lastmod>2022-05-20T00:22:39.998Z</lastmod>
+    <lastmod>2022-05-26T01:47:05.033Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/reference/globs.html</loc>
-    <lastmod>2022-05-20T00:22:40.398Z</lastmod>
+    <lastmod>2022-05-26T01:47:05.736Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/get-started/index.html</loc>
@@ -758,50 +758,50 @@
   </url>
   <url>
     <loc>https://quarto.org/docs/websites/website-about.html</loc>
-    <lastmod>2022-05-20T00:22:50.305Z</lastmod>
+    <lastmod>2022-05-26T01:47:06.633Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/websites/website-search.html</loc>
-    <lastmod>2022-05-20T00:22:50.809Z</lastmod>
+    <lastmod>2022-05-26T01:47:07.500Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/websites/website-listings.html</loc>
-    <lastmod>2022-05-20T00:22:51.747Z</lastmod>
+    <lastmod>2022-05-26T01:47:08.937Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/websites/website-navigation.html</loc>
-    <lastmod>2022-05-20T00:22:52.456Z</lastmod>
+    <lastmod>2022-05-26T01:47:10.149Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/websites/publishing-websites.html</loc>
-    <lastmod>2022-05-20T00:22:53.098Z</lastmod>
+    <lastmod>2022-05-26T01:47:11.197Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/websites/website-blog.html</loc>
-    <lastmod>2022-05-20T00:22:53.750Z</lastmod>
+    <lastmod>2022-05-26T01:47:12.243Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/websites/website-tools.html</loc>
-    <lastmod>2022-05-20T00:22:54.383Z</lastmod>
+    <lastmod>2022-05-26T01:47:13.323Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/websites/index.html</loc>
-    <lastmod>2022-05-20T00:22:54.909Z</lastmod>
+    <lastmod>2022-05-26T01:47:14.140Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/docs/websites/website-listings-custom.html</loc>
-    <lastmod>2022-05-20T00:22:55.418Z</lastmod>
+    <lastmod>2022-05-26T01:47:15.124Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/index.html</loc>
-    <lastmod>2022-05-20T00:22:55.869Z</lastmod>
+    <lastmod>2022-05-30T22:16:05.765Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/about.html</loc>
-    <lastmod>2022-05-20T00:22:56.264Z</lastmod>
+    <lastmod>2022-05-26T01:47:15.836Z</lastmod>
   </url>
   <url>
     <loc>https://quarto.org/license.html</loc>
-    <lastmod>2022-05-20T00:22:57.010Z</lastmod>
+    <lastmod>2022-05-26T01:47:16.484Z</lastmod>
   </url>
 </urlset>
