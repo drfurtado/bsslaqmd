@@ -12,17 +12,7 @@ website:
   google-analytics: ""
   open-graph: true
   twitter-card: true
-  site-url: https://quarto.org
-  repo-url: https://github.com/quarto-dev/quarto-web
-  repo-actions: [edit, issue]
   page-navigation: true
-  search:
-    algolia:
-      index-name: prod_QUARTO
-      application-id: ZPJB5I1QN7
-      search-only-api-key: 41be6c1e0a7fea4a51b107810facf577
-      analytics-events: true
-      show-logo: true
   page-footer:
     left: |
       Proudly supported by
@@ -49,7 +39,7 @@ website:
     title: false
     collapse-below: lg
     left:
-      - text: "Overview"
+      - text: "Home"
         href: index.qmd
       - text: "Get Started"
         href: docs/get-started/index.qmd
@@ -60,22 +50,16 @@ website:
       - text: "Gallery"
         href: docs/gallery/index.qmd
       - text: "Blog"
-        href: docs/blog/index.qmd
+        href: blog/index.qmd
       - text: "Help"
         menu:
-          - text: "Report an Issue"
-            icon: "bug"
-            href: "https://github.com/quarto-dev/quarto-cli/issues"
-          - text: "Quarto Discussions"
-            icon: "chat-right-text"
-            href: "https://github.com/quarto-dev/quarto-cli/discussions"
           - text: "FAQ"
             icon: "question-circle"
             href:  docs/faq/index.qmd
     right:
       - icon: twitter
-        href: https://twitter.com/quarto_pub
-        aria-label: Quarto Twitter
+        href: https://twitter.com/bssla
+        aria-label: Twitter
       - icon: github
         href: https://github.com/quarto-dev/quarto-cli
         aria-label: Quarto GitHub

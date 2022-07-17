@@ -1,0 +1,17 @@
+---
+title: Virtual Meetings
+subtitle: A list of recorded virtual meetings in Portuguese
+listing:
+  type: table
+  sort: "date desc"
+  contents: "posts"
+  sort-ui: true
+  filter-ui: true
+  categories: true
+  feed: true
+page-layout: full
+margin-header: signup.html
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+search: false
+---

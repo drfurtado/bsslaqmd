@@ -1,0 +1,20 @@
+---
+title: Spiritual influences
+subtitle: Jorge Elarrat talks about five reasons that may lead to spiritual influences.
+categories:
+  - Spiritual Influence
+  - Mental Disturbance
+  - Portuguese
+author: Jorge Elarrat
+date: 06/08/2021
+---
+
+::: {.callout-important appearance="simple"}
+English machine-generated closed captions can be turned on for the video below.[^1]
+:::
+
+```{=html}
+<iframe width="740" height="400" src="https://www.youtube-nocookie.com/embed/z-1tdAcIi2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+[^1]: Please, [contract us](mailto:info@blossomss.org) If you are willing to help us improving these captions.

@@ -1,22 +1,17 @@
 [
   {
-    "listing": "/docs/guide/index.html",
-    "items": []
-  },
-  {
     "listing": "/docs/gallery/index.html",
     "items": []
   },
   {
-    "listing": "/docs/blog/index.html",
-    "items": [
-      "/docs/blog/posts/2022-02-17-advanced-layout/index.html",
-      "/docs/blog/posts/2022-02-15-feature-tables/index.html",
-      "/docs/blog/posts/2022-02-13-feature-callouts/index.html"
-    ]
-  },
-  {
     "listing": "/docs/reference/index.html",
     "items": []
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/2021.06.08/index.html",
+      "/blog/posts/2021.12.14/index.html"
+    ]
   }
 ]

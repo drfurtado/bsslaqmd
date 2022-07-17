@@ -1,0 +1,18 @@
+---
+title: A meaning for our lives
+subtitle: Carlos Campetti talks about the meaning of life.
+categories:
+  - Reincarnation
+  - Meaning of life
+  - Portuguese
+author: Carlos Campetti
+date: 12/14/2021
+---
+
+::: {.callout-important appearance="simple"}
+English closed captions are coming soon.
+:::
+
+```{=html}
+<iframe width="740" height="400" src="https://www.youtube-nocookie.com/embed/PpzDpk4WJcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
